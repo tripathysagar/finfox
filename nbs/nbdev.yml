@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "finfox"
+  site-url: "https://tripathysagar.github.io/finfox"
+  description: "finace operation and extraction pipeline"
+  repo-branch: main
+  repo-url: "https://github.com/tripathysagar/finfox"
