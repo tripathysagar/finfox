@@ -13,7 +13,7 @@ prompt =  """You are an AI specialized in recognizing and extracting text from a
 Your mission is to analyze the image document and generate the result while maintaining data integrity.Extract the each text in details as present. 
 It is mission critical. Do not send anything extra. DO NOT MISS ANY INFORMATION. Double check."""
 
-if sys.platform == "darwin":  
+if sys.platform == "darwin":  # init iff the code is running in mac
     from finfox.core import *
     import mlx.core as mx
     from mlx_vlm import load, generate

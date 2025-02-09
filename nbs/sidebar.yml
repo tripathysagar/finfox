@@ -4,4 +4,5 @@ website:
       - index.ipynb
       - 00_core.ipynb
       - 01_serverMLX.ipynb
-      #- 02_run.ipynb
+      - 02_extractGemini.ipynb
+      - 03_rough.ipynb
